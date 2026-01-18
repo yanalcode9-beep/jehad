@@ -61,6 +61,7 @@ export const data = {
     profile: {
         image: '/assets/profile.jpg',
         video: '/assets/research-video.mp4',
+
         achievements: [
             { number: '20+', key: 'achievements.patents' },
             { number: '90+', key: 'achievements.papers' },

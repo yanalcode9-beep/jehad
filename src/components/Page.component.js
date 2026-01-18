@@ -46,8 +46,8 @@ export class Page extends Component {
         </div>
         ${new Footer(this.props)}
     </div>
-    <script>window.currentLang = '${lang}';</script>
-    <script>${getClientScript()}</script>
+<script>window.currentLang = '${lang}';</script>
+    <script src="/js/client.js"></script>
 </body>
 </html>`;
     }

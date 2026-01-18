@@ -5,8 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "authbind --deep node server.js",
+    "dev": "authbind --deep npx nodemon server.js"
   },
   "keywords": ["component-based", "bilingual", "i18n", "node", "express"],
   "author": "Yanal",
