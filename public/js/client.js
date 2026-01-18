@@ -5,7 +5,7 @@ if (languageToggle) {
         const currentLang = window.currentLang || 'en';
         const newLang = currentLang === 'en' ? 'ar' : 'en';
         localStorage.setItem('preferredLanguage', newLang);
-        window.location.href = '/?lang=' + newLang;
+        window.location.reload();
     });
 }
 
